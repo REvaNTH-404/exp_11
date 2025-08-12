@@ -16,10 +16,9 @@ class cube{
     }
 
 int volume(){
-    int v;
-    v = height*width*length ;
-    return v;
+    return height*width*length ;
     }
+
 void disp(){
     int a =volume();
     cout<<"The volume is"<< a:
@@ -27,10 +26,9 @@ void disp(){
 };
 
 int main(){
-   cube cube1;
-   cube1.input();
-    int vol = cube1.volume() ;
-    cout<<"volume:"<<vol<<endl;
+    cube cube1;
+    cube1.input();
     cube1.disp();
 
 }
+
