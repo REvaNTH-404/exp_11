@@ -20,6 +20,10 @@ int volume(){
     v = height*width*length ;
     return v;
     }
+void disp(){
+    int a =volume();
+    cout<<"The volume is"<< a:
+    }
 };
 
 int main(){
@@ -27,4 +31,6 @@ int main(){
    cube1.input();
     int vol = cube1.volume() ;
     cout<<"volume:"<<vol<<endl;
+    cube1.disp();
+
 }
